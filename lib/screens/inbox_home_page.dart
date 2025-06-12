@@ -26,7 +26,7 @@ class InboxHomePage extends StatelessWidget {
             child: Text(
               'Chats',
               style: TextStyle(
-                fontSize: 214,
+                fontSize: 24,
                 fontWeight: FontWeight.bold,
                 color: Colors.white,
               ),
