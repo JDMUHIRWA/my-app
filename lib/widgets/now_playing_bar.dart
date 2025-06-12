@@ -32,7 +32,7 @@ class NowPlayingBar extends StatelessWidget {
               mainAxisSize: MainAxisSize.min,
               children: [
                 Text(
-                  "Isaka (6cam)",
+                  "Isaka (6am)",
                   style: TextStyle(
                     fontSize: 13,
                     fontWeight: FontWeight.bold,
