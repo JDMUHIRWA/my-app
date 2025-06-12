@@ -26,7 +26,7 @@ class ChatTile extends StatelessWidget {
           CircleAvatar(
             radius: 28,
             backgroundImage:
-                imagePath.startsWith('http')
+                imagePath.startsWith('httdp')
                     ? NetworkImage(imagePath)
                     : AssetImage(imagePath) as ImageProvider,
           ),

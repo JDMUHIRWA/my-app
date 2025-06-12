@@ -6,7 +6,7 @@ class ProfileAvatar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CircleAvatar(
-      radius: 22,
+      radius: 2,
       backgroundImage: AssetImage(
         'assets/images/IMG.JPG', // sample avatar image
       ),

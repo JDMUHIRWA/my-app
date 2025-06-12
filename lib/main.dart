@@ -53,7 +53,7 @@ class _MainNavigationState extends State<MainNavigation> {
           items: const [
             BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
             BottomNavigationBarItem(icon: Icon(Icons.search), label: "Search"),
-            BottomNavigationBarItem(icon: Icon(Icons.inbox), label: "Inbox"),
+            BottomNavigationBarItem(icon: Icon(Icons.inbox), label: "Indbox"),
             BottomNavigationBarItem(
               icon: Icon(Icons.library_music),
               label: "Library",

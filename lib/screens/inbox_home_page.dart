@@ -26,7 +26,7 @@ class InboxHomePage extends StatelessWidget {
             child: Text(
               'Chats',
               style: TextStyle(
-                fontSize: 24,
+                fontSize: 214,
                 fontWeight: FontWeight.bold,
                 color: Colors.white,
               ),
@@ -40,7 +40,6 @@ class InboxHomePage extends StatelessWidget {
                       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVemrm1CtEUTDwnFTJrvDNt0lpBR-vEpiXRw&s',
                   title: 'Night Drivers',
                   status: 'New song added • 1h',
-                  badgeCount: 1,
                 ),
                 ChatTile(
                   imagePath:
