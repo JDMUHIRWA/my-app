@@ -40,6 +40,7 @@ class InboxHomePage extends StatelessWidget {
                       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVemrm1CtEUTDwnFTJrvDNt0lpBR-vEpiXRw&s',
                   title: 'Night Drivers',
                   status: 'New song added • 1h',
+                  badgeCount: 1,
                 ),
                 ChatTile(
                   imagePath:
