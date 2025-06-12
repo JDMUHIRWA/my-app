@@ -47,7 +47,7 @@ class InboxHomePage extends StatelessWidget {
                       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ99UpPck0m1NkmQNB5K9-Zmr_7p1qAypRDng&s',
                   title: 'Muhirwa',
                   status: 'Playlist update • 4h',
-                  isUnread: false,
+                  notRead: false,
                 ),
                 ChatTile(
                   imagePath:
@@ -55,7 +55,7 @@ class InboxHomePage extends StatelessWidget {
                   title: 'Drizzy club',
                   status: 'New songs from Ivan • 2d',
                   badgeCount: 2,
-                  isUnread: true,
+                  notRead: true,
                 ),
                 ChatTile(
                   imagePath:
@@ -63,7 +63,7 @@ class InboxHomePage extends StatelessWidget {
                   title: 'Ishow Speed Sui',
                   status: 'Bro this song firefire 🤪',
                   badgeCount: 2,
-                  isUnread: true,
+                  notRead: true,
                 ),
                 ChatTile(
                   imagePath:

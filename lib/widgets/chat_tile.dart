@@ -5,14 +5,14 @@ class ChatTile extends StatelessWidget {
   final String title;
   final String status;
   final int badgeCount;
-  final bool isUnread;
+  final bool notRead;
 
   const ChatTile({
     required this.imagePath,
     required this.title,
     required this.status,
     this.badgeCount = 0,
-    this.isUnread = false,
+    this.notRead = false,
     super.key,
   });
 
@@ -49,9 +49,9 @@ class ChatTile extends StatelessWidget {
                 Text(
                   status,
                   style: TextStyle(
-                    color: isUnread ? Colors.green : Colors.grey,
+                    color: notRead ? Colors.green : Colors.grey,
                     fontSize: 13,
-                    fontWeight: isUnread ? FontWeight.bold : FontWeight.normal,
+                    fontWeight: notRead ? FontWeight.bold : FontWeight.normal,
                   ),
                 ),
               ],
