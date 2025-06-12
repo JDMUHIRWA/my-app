@@ -75,19 +75,8 @@ flutter test
 
 ---
 
-## 📚 Resources
-
-* [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
-* [README Best Practices](https://www.archbee.com/blog/readme-document-elements)
-
----
-
 ## ✍️ Author
 
-Muhirwa JD — Flutter Developer & UI Enthusiast
+Muhirwa JD — MLOps Engineer
 
 ---
-
-## 📎 License
-
-MIT License (or specify another if applicable)
