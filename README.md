@@ -55,26 +55,6 @@ flutter test
 
 ---
 
-## 📄 Change Log (Last Sprint)
-
-**Added**
-
-* InboxHomePage screen with mock chat list
-* BottomNavigationBar with 4 main screens
-* Badge count display for unread messages
-
-**Changed**
-
-* Avatar widget to support both network and asset images
-* Tabs moved to custom component widget
-
-**Fixed**
-
-* UI overflow issue on small screens
-* Missing image bug in CircleAvatar widget
-
----
-
 ## ✍️ Author
 
 Muhirwa JD — MLOps Engineer
