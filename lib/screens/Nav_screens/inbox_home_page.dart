@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
-import '../widgets/profile_avatar.dart';
-import '../widgets/tab_toggle_buttons.dart';
-import '../widgets/chat_tile.dart';
-import '../widgets/now_playing_bar.dart';
+import '../../widgets/profile_avatar.dart';
+import '../../widgets/tab_toggle_buttons.dart';
+import '../../widgets/chat_tile.dart';
+import '../../widgets/now_playing_bar.dart';
+import '../../constants/app-colors.dart';
+import '../../screens/chat_screens/chat_screen.dart';
 
 class InboxHomePage extends StatelessWidget {
   const InboxHomePage({super.key});
@@ -10,10 +12,8 @@ class InboxHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFF000000),
+      backgroundColor: AppColors.background,
       appBar: AppBar(
-        backgroundColor: const Color.fromARGB(0, 0, 0, 0),
-        elevation: 0,
         title: Row(
           children: [ProfileAvatar(), SizedBox(width: 20), TabToggleButtons()],
         ),
@@ -22,13 +22,13 @@ class InboxHomePage extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Padding(
-            padding: const EdgeInsets.all(16.0),
+            padding: const EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 0.0),
             child: Text(
               'Chats',
               style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
-                color: Colors.white,
+                color: AppColors.white,
               ),
             ),
           ),
@@ -41,6 +41,16 @@ class InboxHomePage extends StatelessWidget {
                   title: 'Night Drivers',
                   status: 'New song added • 1h',
                   badgeCount: 1,
+                  onTap: () {
+                    // Handle tap on Night Drivers chat tile
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder:
+                            (_) => ChatScreen(contactName: 'Night Drivers'),
+                      ),
+                    );
+                  },
                 ),
                 ChatTile(
                   imagePath:
